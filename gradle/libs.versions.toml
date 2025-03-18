@@ -11,7 +11,7 @@ androidx-espresso-core = "3.6.1"
 androidx-lifecycle = "2.8.4"
 androidx-material = "1.12.0"
 androidx-test-junit = "1.2.1"
-androidx-ui-test-manifest = "1.7.1"
+uiTestManifest = "1.7.5"
 androidx-ui-test-junit4-android = "1.7.1"
 compose-multiplatform = "1.7.0"
 junit = "4.13.2"
@@ -30,7 +30,7 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
 androidx-material = { group = "com.google.android.material", name = "material", version.ref = "androidx-material" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidx-constraintlayout" }
-androidx-compose-ui-ui-test-manifest = {group = "androidx.compose.ui", name = "ui-test-manifest", version.ref = "androidx-ui-test-manifest" }
+androidx-ui-test-manifest = {  module = "androidx.compose.ui:ui-test-manifest", version.ref = "uiTestManifest" }
 androidx-compose-ui-ui-test-junit4-android = {group = "androidx.compose.ui", name = "ui-test-junit4-android", version.ref = "androidx-ui-test-junit4-android" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 androidx-lifecycle-viewmodel = { group = "org.jetbrains.androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "androidx-lifecycle" }
